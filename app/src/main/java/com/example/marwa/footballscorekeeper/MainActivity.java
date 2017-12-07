@@ -12,28 +12,44 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
 
-    /** Tracks the goals for Team A. */
+    /**
+     * Tracks the goals for Team A.
+     */
     int goalTeamA = 0;
 
-    /** Tracks the fouls for Team A. */
+    /**
+     * Tracks the fouls for Team A.
+     */
     int foulTeamA = 0;
 
-    /** Tracks the goals for Team B. */
+    /**
+     * Tracks the goals for Team B.
+     */
     int goalTeamB = 0;
 
-    /** Tracks the fouls for Team A. */
+    /**
+     * Tracks the fouls for Team A.
+     */
     int foulTeamB = 0;
 
-    /** Shows the goals of team A. */
+    /**
+     * Shows the goals of team A.
+     */
     TextView goalA;
 
-    /** Shows the fouls of team A. */
+    /**
+     * Shows the fouls of team A.
+     */
     TextView foulA;
 
-    /** Shows the goals of team B. */
+    /**
+     * Shows the goals of team B.
+     */
     TextView goalB;
 
-    /** Shows the fouls of team B. */
+    /**
+     * Shows the fouls of team B.
+     */
     TextView foulB;
 
 
