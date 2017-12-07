@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TextView -->
+    <dimen name="paddingBottom">2dp</dimen>
+    <dimen name="textSize">35sp</dimen>
+
+    <!-- Button -->
+    <dimen name="bottom">8dp</dimen>
+    <dimen name="marginButton">24dp</dimen>
+
+    <!-- View -->
+    <dimen name="viewMarginBottomAndTop">4dp</dimen>
+    <dimen name="viewMarginLeftAndRight">16dp</dimen>
+
+    <!-- Horizontal View -->
+    <dimen name="layoutMarginBottom">50dp</dimen>
+    <dimen name="layoutMarginTop">320dp</dimen>
+
+    <!-- Radius for Reset Button -->
+    <dimen name="radiusForCorners">10dp</dimen>
+    <!-- Width of Stroke for Reset Button-->
+    <dimen name="width">1px</dimen>
+    <!-- Margin for Reset Button-->
+    <dimen name="layoutMargin">25dp</dimen>
+
+</resources>
