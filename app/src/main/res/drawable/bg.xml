@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#3dfd01"></solid>
+<solid android:color="@color/colorButton" />
 
-    <size  android:width="80dp"
-        android:height="20dp"></size>
+<corners android:radius="@dimen/radiusForCorners" />
 
-    <corners android:radius="10dp"></corners>
-
-    <stroke android:width="1px"
-        android:color="#0624bc"></stroke>
+<stroke android:width="@dimen/width"
+    android:color="@color/textColorResult" />
 </shape>

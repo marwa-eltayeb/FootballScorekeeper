@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3dfd01</color>
-    <color name="colorPrimaryDark">#108301</color>
+    <color name="colorPrimary">#d4001c</color>
+    <color name="colorPrimaryDark">#9b0003</color>
     <color name="colorAccent">#FF4081</color>
 
-   <color name="colorWindowBackground">#ffffa5</color>
+    <!-- Background color of the app -->
+    <color name="colorWindowBackground">#b6b6b6</color>
+
+    <!-- Text color of the TextView's result -->
+    <color name="textColorResult">#000</color>
+
+    <!-- Text color of the Buttons -->
+    <color name="textColorButton">#fff</color>
+
+    <!-- Background color of buttons in the app -->
+    <color name="colorButton">#d4001c</color>
+
+    <!-- Color of teams' name -->
+    <color name="teamNameColor">#363434</color>
+
 </resources>

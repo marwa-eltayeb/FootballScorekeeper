@@ -14,9 +14,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -55,9 +52,9 @@
             </LinearLayout>
 
             <View
-                android:layout_width="1dp"
+                android:layout_width="@dimen/width"
                 android:layout_height="match_parent"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="@dimen/viewMarginLeftAndRight"
                 android:background="@android:color/black" />
 
             <LinearLayout
@@ -100,21 +97,22 @@
             android:id="@+id/view"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="320dp"
+            android:layout_marginBottom="@dimen/layoutMarginBottom"
+            android:layout_marginLeft="@dimen/viewMarginLeftAndRight"
+            android:layout_marginRight="@dimen/viewMarginLeftAndRight"
+            android:layout_marginTop="@dimen/layoutMarginTop"
             android:background="@android:color/black" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_below="@id/view"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="32dp"
+            android:layout_margin="@dimen/layoutMargin"
             android:background="@drawable/bg"
             android:onClick="resetGame"
             android:text="@string/reset"
-            android:textColor="#fff" />
+            android:textColor="@color/textColorButton" />
     </RelativeLayout>
 
 </ScrollView>

@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -8,8 +8,61 @@
         <item name="colorAccent">@color/colorAccent</item>
 
         <!-- Background color of buttons in the app -->
-        <item name="colorButtonNormal">#3dfd01</item>
+        <item name="colorButtonNormal">@color/colorButton</item>
     </style>
+
+
+
+
+    <!-- Style for Name of teams -->
+    <style name="team_name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/teamNameColor</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-medium</item>
+    </style>
+
+    <!-- Style for result of TextView -->
+    <style name="result">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/paddingBottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColorResult</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+    </style>
+
+
+    <!-- Style for button -->
+    <style name="button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/bottom</item>
+        <item name="android:layout_marginLeft">@dimen/marginButton</item>
+        <item name="android:layout_marginRight">@dimen/marginButton</item>
+        <item name="android:textColor">@color/textColorButton</item>
+    </style>
+
+
+    <!-- Style for view -->
+    <style name="view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginBottom">@dimen/viewMarginBottomAndTop</item>
+        <item name="android:layout_marginTop">@dimen/viewMarginBottomAndTop</item>
+        <item name="android:layout_marginLeft">@dimen/viewMarginLeftAndRight</item>
+        <item name="android:layout_marginRight">@dimen/viewMarginLeftAndRight</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+
+
+
 
 </resources>
 
