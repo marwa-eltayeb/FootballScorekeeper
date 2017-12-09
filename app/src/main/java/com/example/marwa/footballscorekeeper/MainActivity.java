@@ -52,6 +52,12 @@ public class MainActivity extends AppCompatActivity {
      */
     TextView foulB;
 
+    /** Keys is used for saving and restoring values*/
+    private final String GOAL_TEAM_A = "goalTeamA";
+    private final String FOUL_TEAM_A = "foulTeamA";
+    private final String GOAL_TEAM_B = "goalTeamB";
+    private final String FOUL_TEAM_B = "foulTeamB";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,10 +74,10 @@ public class MainActivity extends AppCompatActivity {
 
         /* Gets the goals and the fouls after the device is rotated. */
         if (savedInstanceState != null) {
-            goalTeamA = savedInstanceState.getInt("goalTeamA");
-            foulTeamA = savedInstanceState.getInt("foulTeamA");
-            goalTeamB = savedInstanceState.getInt("goalTeamB");
-            foulTeamB = savedInstanceState.getInt("foulTeamB");
+            goalTeamA = savedInstanceState.getInt(GOAL_TEAM_A);
+            foulTeamA = savedInstanceState.getInt(FOUL_TEAM_A);
+            goalTeamB = savedInstanceState.getInt(GOAL_TEAM_B);
+            foulTeamB = savedInstanceState.getInt(FOUL_TEAM_B);
             displayGoalsForTeamA(goalTeamA);
             displayFoulsForTeamA(foulTeamA);
             displayGoalsForTeamB(goalTeamB);
@@ -164,10 +170,10 @@ public class MainActivity extends AppCompatActivity {
      */
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
-        savedInstanceState.putInt("goalTeamA", goalTeamA);
-        savedInstanceState.putInt("foulTeamA", foulTeamA);
-        savedInstanceState.putInt("goalTeamB", goalTeamB);
-        savedInstanceState.putInt("foulTeamB", foulTeamB);
+        savedInstanceState.putInt(GOAL_TEAM_A, goalTeamA);
+        savedInstanceState.putInt(FOUL_TEAM_A, foulTeamA);
+        savedInstanceState.putInt(GOAL_TEAM_B, goalTeamB);
+        savedInstanceState.putInt(FOUL_TEAM_B, foulTeamB);
     }
 
 
