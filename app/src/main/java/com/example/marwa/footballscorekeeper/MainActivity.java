@@ -13,51 +13,46 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     * Tracks the goals for Team A.
+     * Keys is used for saving and restoring values
      */
-    int goalTeamA = 0;
-
-    /**
-     * Tracks the fouls for Team A.
-     */
-    int foulTeamA = 0;
-
-    /**
-     * Tracks the goals for Team B.
-     */
-    int goalTeamB = 0;
-
-    /**
-     * Tracks the fouls for Team A.
-     */
-    int foulTeamB = 0;
-
-    /**
-     * Shows the goals of team A.
-     */
-    TextView goalA;
-
-    /**
-     * Shows the fouls of team A.
-     */
-    TextView foulA;
-
-    /**
-     * Shows the goals of team B.
-     */
-    TextView goalB;
-
-    /**
-     * Shows the fouls of team B.
-     */
-    TextView foulB;
-
-    /** Keys is used for saving and restoring values*/
     private final String GOAL_TEAM_A = "goalTeamA";
     private final String FOUL_TEAM_A = "foulTeamA";
     private final String GOAL_TEAM_B = "goalTeamB";
     private final String FOUL_TEAM_B = "foulTeamB";
+    
 
+    /**
+     * Tracks the goals for Team A.
+     */
+    int goalTeamA = 0;
+    /**
+     * Tracks the fouls for Team A.
+     */
+    int foulTeamA = 0;
+    /**
+     * Tracks the goals for Team B.
+     */
+    int goalTeamB = 0;
+    /**
+     * Tracks the fouls for Team A.
+     */
+    int foulTeamB = 0;
+    /**
+     * Shows the goals of team A.
+     */
+    TextView goalA;
+    /**
+     * Shows the fouls of team A.
+     */
+    TextView foulA;
+    /**
+     * Shows the goals of team B.
+     */
+    TextView goalB;
+    /**
+     * Shows the fouls of team B.
+     */
+    TextView foulB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
