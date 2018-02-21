@@ -3,6 +3,8 @@
     <!-- TextView -->
     <dimen name="paddingBottom">2dp</dimen>
     <dimen name="textSize">35sp</dimen>
+    <dimen name="textSizeOfTeamName">20sp</dimen>
+    <dimen name="paddingOfTeamName">16dp</dimen>
 
     <!-- Button -->
     <dimen name="bottom">8dp</dimen>
@@ -19,7 +21,7 @@
     <!-- Radius for Reset Button -->
     <dimen name="radiusForCorners">10dp</dimen>
     <!-- Width of Stroke for Reset Button-->
-    <dimen name="width">1px</dimen>
+    <dimen name="width">1dp</dimen>
     <!-- Margin for Reset Button-->
     <dimen name="layoutMargin">25dp</dimen>
 
