@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private final String FOUL_TEAM_A = "foulTeamA";
     private final String GOAL_TEAM_B = "goalTeamB";
     private final String FOUL_TEAM_B = "foulTeamB";
-    
+
 
     /**
      * Tracks the goals for Team A.
