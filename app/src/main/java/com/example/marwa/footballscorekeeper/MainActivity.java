@@ -1,14 +1,14 @@
 package com.example.marwa.footballscorekeeper;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 /**
  * This activity keeps track of the Football Scorekeeper for 2 teams.
  */
-
 public class MainActivity extends AppCompatActivity {
 
 
